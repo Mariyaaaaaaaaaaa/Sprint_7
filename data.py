@@ -1,4 +1,4 @@
-class LOGIN:
+class Login:
     data_existing_courier = {
         "login": "Maria98765",
         "password": "Qwerty123"
@@ -13,7 +13,7 @@ class LOGIN:
         {"login": "Maria159357", "password": ""}  # отсутствует пароль
     ]
 
-class ORDERS:
+class Orders:
 
     order_data = {
         "firstName": "Naruto",

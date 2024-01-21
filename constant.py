@@ -1,4 +1,4 @@
-class URLS:
+class Urls:
     SERVER_URL = 'http://qa-scooter.praktikum-services.ru/'
     COURIER = SERVER_URL + 'api/v1/courier/'
     LOGIN_COURIER = COURIER + 'login'
@@ -9,7 +9,7 @@ class URLS:
 
 
 
-class ERRORS:
+class Errors:
     error_login_no_data = "Недостаточно данных для входа"
     error_login_not_found = "Учетная запись не найдена"
 
